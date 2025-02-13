@@ -28,12 +28,12 @@ body {
   border-color: #fff;
 }
 
-/* Smooth Scroll */
+
 html {
   scroll-behavior: smooth;
 }
 
-/* Section Styling */
+
 section {
   height: 100vh;
   padding: 50px;
@@ -47,21 +47,20 @@ section {
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
 
-/* Background Warna */
+
 #home { background: #1a1a1a; }
 #about { background: #2c3e50; }
 #project { background: #34495e; }
 #contact { background: #7f8c8d; }
 
-/* Saat muncul di layar */
 .show {
   opacity: 1;
   transform: translateY(0);
 }
 .card-img-top {
-  width: 100%; /* Pastikan gambar memenuhi lebar card */
-  height: 200px; /* Tetapkan tinggi gambar agar seragam */
-  object-fit: cover; /* Pangkas gambar agar tetap proporsional */
+  width: 100%; 
+  height: 200px; 
+  object-fit: cover; 
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
